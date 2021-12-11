@@ -1,0 +1,14 @@
+.App {
+    background-color: #050014;
+    /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png"); */
+    /* background-image: url("https://www.transparenttextures.com/patterns/gplay.png"); */
+    /* background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png"); */
+    /* background-image: url("https://www.transparenttextures.com/patterns/old-wall.png"); */
+    background-image: url("https://www.transparenttextures.com/patterns/snow.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/stardust.png"); */
+    /* background-image: url("https://www.transparenttextures.com/patterns/white-wall-3-2.png"); */
+    /* background-size: 100%; */
+    color: #fff;
+    max-width: 2000px;
+    padding: 2.5em;
+}
