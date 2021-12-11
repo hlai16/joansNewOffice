@@ -1,14 +1,11 @@
 @import "./styles/variables.scss";
 
 .App {
-    background-color: #050014;
-    /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png"); */
-    /* background-image: url("https://www.transparenttextures.com/patterns/gplay.png"); */
-    /* background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png"); */
-    /* background-image: url("https://www.transparenttextures.com/patterns/old-wall.png"); */
+    background-color: #050014d7;
+    // background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
     background-image: url("https://www.transparenttextures.com/patterns/snow.png");
-    /* background-image: url("https://www.transparenttextures.com/patterns/stardust.png"); */
-    /* background-image: url("https://www.transparenttextures.com/patterns/white-wall-3-2.png"); */
+    // background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    // background-image: url("https://www.transparenttextures.com/patterns/white-wall-3-2.png");
     color: #fff;
     max-width: 2000px;
     padding: 2.5em;
@@ -20,7 +17,7 @@
     display: flex;
     flex-direction: column;
     min-width: 18rem;
-    padding: $spacing 0;
+    padding: $spacing;
   
     &--centered {
       align-self: center;
@@ -47,7 +44,9 @@
     flex-direction: column;
     justify-content: flex-start;
     margin: 2rem 0;
-    padding: 0 $spacing;
+    padding: $spacing;
     width: 100%;
+    background-color: #0000007c;
+    border-radius: 5px 20% 20% 5px;
   }
   

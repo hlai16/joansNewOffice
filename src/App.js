@@ -3,14 +3,15 @@ import './App.scss';
 
 function App() {
   return (
-    <main className="App">
+    <main className="App layout">
       <section className="sidebar">
-        {/* <hr className="sidebar__separator sidebar--centered" /> */}
+        <h1 className="sidebar--centered">Joan's Office</h1>
+        <hr className="sidebar__separator sidebar--centered" />
         <nav className="sidebar__menu">
         </nav>
       </section>
       <section className="displayContents">
-       
+       coming soon
       </section>
     </main>
   );
