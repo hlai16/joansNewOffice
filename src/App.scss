@@ -1,3 +1,5 @@
+@import "./styles/variables.scss";
+
 .App {
     background-color: #050014;
     /* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png"); */
@@ -7,8 +9,45 @@
     background-image: url("https://www.transparenttextures.com/patterns/snow.png");
     /* background-image: url("https://www.transparenttextures.com/patterns/stardust.png"); */
     /* background-image: url("https://www.transparenttextures.com/patterns/white-wall-3-2.png"); */
-    /* background-size: 100%; */
     color: #fff;
     max-width: 2000px;
     padding: 2.5em;
 }
+
+.sidebar {
+    background-color: $dark-background;
+    box-shadow: 0px 4px 8px rgba($dark-background, 0.5);
+    display: flex;
+    flex-direction: column;
+    min-width: 18rem;
+    padding: $spacing 0;
+  
+    &--centered {
+      align-self: center;
+    }
+  
+    &__separator {
+      width: 90%;
+      margin: $spacing 0;
+      border: solid 1px;
+      color: darken($white, 5%);
+    }
+  
+    &__menu {
+      flex: 1;
+    }
+  
+    &__lhl {
+      margin-top: 2rem;
+    }
+  }
+  
+  .schedule {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2rem 0;
+    padding: 0 $spacing;
+    width: 100%;
+  }
+  
