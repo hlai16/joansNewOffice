@@ -1,3 +1,10 @@
+# Affirmation:
+
+I am going to make one commit on you daily or every other day at least until I am done and successfully deploying you, my new portfolio.
+I've been slacking and avoiding completing you lol. Everything seems so hard you know?
+Yes I am the biggest winer in the coding community.
+Happy Birthday to me.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
