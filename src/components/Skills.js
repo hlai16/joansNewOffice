@@ -6,12 +6,17 @@ function Skills() {
   const { open, toggle } = useToggle();
     return (
      <>
-      <h2>Things that I can do:</h2>
-      <h3>Frontend:</h3>
-      <button onClick={toggle}>
-          <h3>{open ? '-' : '+'}</h3>
-      </button>
-      {open && <p>Vanilla Javascript,
+      <h2>Things that I can do:
+        <button onClick={toggle}>
+          <p>{open ? '-' : '+'}</p>
+        </button>
+      </h2>
+      
+      <div className="skills frontend">
+        
+        <h3>Frontend:</h3>
+        
+        {open && <p className="collapse w3-animate-zoom">Vanilla Javascript,
         jQuery,
         React,
         HTML 5,
@@ -22,32 +27,38 @@ function Skills() {
         Adobe Suite,
         Figma,
         Wireframing/Mockup</p> }
-      <h3>Backend:</h3>
-      <p>Ruby Rails,
-        Google Analytics,
-        Git,
-        node.js,
-        dotenv,
-        byebug,
-        Active Record,
-        Nodemon,
-        Express.js, 
-        Java</p>
+      </div>
+      
+      <div className="skills frontend">
+        
+          <h3>Backend:</h3>
+         
+          {open && <p className="collapse w3-animate-zoom">Ruby Rails,
+            Google Analytics,
+            Git,
+            node.js,
+            dotenv,
+            byebug,
+            Active Record,
+            Nodemon,
+            Express.js, 
+            Java</p>}
+        </div>
       <h3>Client Management:</h3>
-      <p>Microsoft Office,
+      {open && <p className="collapse w3-animate-zoom">Microsoft Office,
         Quickbooks,
-        Trello</p>
+        Trello</p>}
       <h3>Database:</h3>
-      <p>SQL,
+      {open && <p className="collapse w3-animate-zoom">SQL,
         Firebase,
         REST API,
-        JSON</p>
+        JSON</p>}
       <h3>Testing:</h3>
-      <p>Storybook,
+      {open && <p className="collapse w3-animate-zoom">Storybook,
         Jest,
         Mocha/Chai,
         Cypress,
-        RSpec</p>
+        RSpec</p>}
      </>
     );
   }

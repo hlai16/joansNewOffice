@@ -1,0 +1,38 @@
+@import "../styles/variables.scss";
+
+
+        button {
+            width: 15%;
+            height: 15%;
+            border: none;
+            background-color: transparent;
+            // color: #fff;
+            margin-top: -3em;
+           
+            padding: 0;
+            
+            p {
+                text-align: center;
+                color: #fff;
+                font-size: 5em;
+                
+                line-height: 0px;
+            }
+
+            button > p:hover,
+            button > p:focus-within {
+                color: red;
+              }
+              
+              .collapse {
+                
+                width: 30%;
+                position: relative;
+                left: 15em;
+                bottom: 12em;
+                font-weight: 900;
+              }
+        }
+    
+
+
