@@ -33,10 +33,6 @@
     &__menu {
       flex: 1;
     }
-  
-    &__lhl {
-      margin-top: 2rem;
-    }
 
   }
   
@@ -52,6 +48,12 @@
     border-radius: 5px 20% 20% 5px;
   }
   
+  ul {
+    list-style: none;
+  }
+
   .nav-link {
     color: #fff;
+    text-decoration: none;
+    line-height: 2em;
   }
