@@ -1,11 +1,17 @@
 import './Skills.scss';
+import useToggle from '../hooks/useToggle';
+import { useState } from 'react';
 
 function Skills() {
+  const { open, toggle } = useToggle();
     return (
      <>
       <h2>Things that I can do:</h2>
       <h3>Frontend:</h3>
-      <p>Vanilla Javascript,
+      <button onClick={toggle}>
+          <h3>{open ? '-' : '+'}</h3>
+      </button>
+      {open && <p>Vanilla Javascript,
         jQuery,
         React,
         HTML 5,
@@ -15,7 +21,7 @@ function Skills() {
         Bootstrap,
         Adobe Suite,
         Figma,
-        Wireframing/Mockup</p>
+        Wireframing/Mockup</p> }
       <h3>Backend:</h3>
       <p>Ruby Rails,
         Google Analytics,
@@ -25,7 +31,7 @@ function Skills() {
         byebug,
         Active Record,
         Nodemon,
-        Express.js
+        Express.js, 
         Java</p>
       <h3>Client Management:</h3>
       <p>Microsoft Office,
