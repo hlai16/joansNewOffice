@@ -4,7 +4,7 @@ function About() {
   return (
    <>
     <h2>About Me</h2>
-    <p>Full Stack Web Developer with a background 
+    <p className="w3-animate-bottom">Full Stack Web Developer with a background 
       in teaching and instruction. I fell in love 
       with coding and discovered this is my passion 
       and through networking, I was able to 
