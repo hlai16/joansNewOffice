@@ -6,11 +6,14 @@ function Skills() {
   const { open, toggle } = useToggle();
     return (
      <>
-      <h2>Things that I can do:
-        <button onClick={toggle}>
-          <p>{open ? '-' : '+'}</p>
-        </button>
-      </h2>
+      <div className="buttonNH2">
+        <h2>Things that I can do:</h2>
+        <div className = "buttonDiv">
+            <button onClick={toggle}>
+              <p>{open ? '-' : '+'}</p>
+            </button>
+        </div>
+      </div>
       
       <div className="skills frontend">
         
