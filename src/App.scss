@@ -57,3 +57,8 @@
     text-decoration: none;
     line-height: 2em;
   }
+
+  .nav-link:hover,
+  .nav-link:focus-within {
+    text-decoration: underline;
+  }
