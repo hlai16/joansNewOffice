@@ -2,32 +2,37 @@
 
         .buttonNH2 {
           display: flex;
-          margin-right: 2em;
+          
         }
         .buttonDiv {
+          margin-left: 2em;
           width: 15%;
+          // height: 45%;
+          border-top-left-radius: 5%;
+          border-bottom-left-radius: 5%;
+          border-top-right-radius: 25%;
+          border-bottom-right-radius: 25%;
+          
+          
           button {
             width: 100%;
-            height: 100%;
+            // height: 80%;
+            border-top-left-radius: 5%;
+            border-bottom-left-radius: 5%;
+            border-top-right-radius: 25%;
+            border-bottom-right-radius: 25%;
             border: none;
             background-color: transparent;
-            // color: #fff;
-            margin-top: -3em;
-           
-            padding: 0;
+            z-index: 99;
             
             p {
                 text-align: center;
-                color: #fff;
-                font-size: 5em;
-                
+                padding: auto 1em;
+                font-size: 2.5em;
+                font-weight: bold;
                 line-height: 0px;
+                color: #fff;
             }
-
-            button > p:hover,
-            button > p:focus-within {
-                color: red;
-              }
               
               .collapse {
                 
@@ -38,6 +43,12 @@
                 font-weight: 900;
               }
           }
+        }
+
+        .buttonDiv:hover,
+        .button:focus-within {
+          box-shadow: 5px 0 5px azure;
+          // border: 1px solid azure;
         }
         
     
